@@ -62,6 +62,7 @@
         <item>@string/adaptive_icon_shape_taperedrect</item>
         <item>@string/adaptive_icon_shape_teardrop</item>
         <item>@string/adaptive_icon_shape_vessel</item>
+        <item>@string/adaptive_icon_shape_rounded</item>        
     </string-array>
 
     <string-array name="adapative_icon_shape_values">
@@ -75,6 +76,7 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>        
     </string-array>
 
     <!-- Statusbar icons -->

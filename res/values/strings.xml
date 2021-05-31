@@ -69,6 +69,7 @@
     <string name="adaptive_icon_shape_taperedrect">Tapered Rectangle</string>
     <string name="adaptive_icon_shape_teardrop">Teardrop</string>
     <string name="adaptive_icon_shape_vessel">Vessel</string>
+    <string name="adaptive_icon_shape_rounded">rounded</string>    
     <string name="adaptive_icon_shape_title">Icon shape</string>
     <string name="adaptive_icon_shape_dialog_title">Select icon shape</string>
 
