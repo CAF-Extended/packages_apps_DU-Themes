@@ -105,10 +105,10 @@
         <item>@string/theme_type_light</item>
         <item>@string/theme_type_google_dark</item>
         <item>@string/theme_type_pitch_black</item>
-        <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_blue</item>
         <item>@string/theme_type_charcoal_black</item>
         <item>@string/theme_type_clear</item>
-        <item>@string/theme_type_ethereal</item>
+        <item>@string/theme_type_night</item>
         <item>@string/theme_type_flame</item>
         <item>@string/theme_type_nature</item>
         <item>@string/theme_type_ocean</item>
@@ -142,10 +142,10 @@
         <item>@string/theme_type_light</item>
         <item>@string/theme_type_google_dark</item>
         <item>@string/theme_type_pitch_black</item>
-        <item>@string/theme_type_solarized_dark</item>
+        <item>@string/theme_type_blue</item>
         <item>@string/theme_type_clear</item>
         <item>@string/theme_type_charcoal_black</item>
-        <item>@string/theme_type_ethereal</item>
+        <item>@string/theme_type_night</item>
         <item>@string/theme_type_flame</item>
         <item>@string/theme_type_nature</item>
         <item>@string/theme_type_ocean</item>

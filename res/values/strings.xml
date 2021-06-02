@@ -122,10 +122,10 @@
     <string name="theme_type_light">Light</string>
     <string name="theme_type_google_dark">Google dark</string>
     <string name="theme_type_pitch_black">Pitch black</string>
-    <string name="theme_type_solarized_dark">Solarized dark</string>
+    <string name="theme_type_blue">Blue</string>
     <string name="theme_type_charcoal_black">Charcoal Black</string>
     <string name="theme_type_clear">Clear</string>
-    <string name="theme_type_ethereal">Ethereal</string>
+    <string name="theme_type_night">Night</string>
     <string name="theme_type_flame">Flame</string>
     <string name="theme_type_nature">Nature</string>
     <string name="theme_type_ocean">Ocean</string>

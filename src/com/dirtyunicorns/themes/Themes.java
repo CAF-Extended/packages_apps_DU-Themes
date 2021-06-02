@@ -265,13 +265,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
             mThemeSwitch.setValue("9");
         } else if (Utils.isThemeEnabled("com.android.theme.color.primary.flame")) {
             mThemeSwitch.setValue("8");
-        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.ethereal")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.night")) {
             mThemeSwitch.setValue("7");
         } else if (Utils.isThemeEnabled("com.android.theme.color.primary.clear")) {
             mThemeSwitch.setValue("6");
         } else if (Utils.isThemeEnabled("com.android.theme.color.primary.charcoalblack")) {
             mThemeSwitch.setValue("5");
-        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.solarized")) {
+        } else if (Utils.isThemeEnabled("com.android.theme.color.primary.blue")) {
             mThemeSwitch.setValue("4");
         } else if (Utils.isThemeEnabled("com.android.theme.color.primary.black")) {
             mThemeSwitch.setValue("3");
@@ -465,13 +465,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_NO,
@@ -483,13 +483,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -501,13 +501,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -519,13 +519,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -537,13 +537,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -555,13 +555,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -573,13 +573,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -591,13 +591,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -609,13 +609,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(true, mContext, UiModeManager.MODE_NIGHT_YES,
@@ -627,13 +627,13 @@ public class Themes extends PreferenceFragment implements ThemesListener {
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.PITCH_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.SOLARIZED_DARK, mOverlayManager);
+                                ThemesUtils.BLUE, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CHARCOAL_BLACK, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.CLEAR, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
-                                ThemesUtils.ETHEREAL, mOverlayManager);
+                                ThemesUtils.NIGHT, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
                                 ThemesUtils.FLAME, mOverlayManager);
                         handleBackgrounds(false, mContext, UiModeManager.MODE_NIGHT_YES,
